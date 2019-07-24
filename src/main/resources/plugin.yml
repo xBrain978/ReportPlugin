@@ -1,0 +1,15 @@
+main: io.github.xbrain978.ReportPlugin
+name: Reports
+version: 0.0.5
+author: xBrain978
+commands:
+   report:
+      description: Report a Player.
+      usage: /report [Player] {Reason}
+      permission: reportplugin.report
+      permission-message: You don't have permission!
+   reports:
+      description: View new reports.
+      usage: /reports view {ID}
+      permission: reportplugin.viewreports
+      permission-message: You don't have permission!
